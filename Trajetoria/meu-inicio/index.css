@@ -1,0 +1,41 @@
+body{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.menu{ 
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.elemento3{
+  align-self:flex-start;
+}
+    h1{
+      color: #2a3377; 
+      background-color: rgb(89, 169, 206); 
+      margin: 50px;
+      text-align: center; 
+      font-size: 60px;}
+    p{
+      border: 0.5rem outset pink;
+      outline: 0.5rem solid khaki;
+      box-shadow: 0 0 0 2rem skyblue;
+      border-radius: 12px;
+      font: bold 1rem sans-serif;
+      margin: 2rem;
+      padding: 1rem;
+      outline-offset: 0.5rem;text-align: center}
+    h2{
+      background-color: rgb(89, 169, 206);
+      margin: 50px;
+      text-align: center}
+    h3{
+      background-color: beige;
+      text-align: center;
+      margin: 50px;}
+    ul{
+      color:rgb(0,0,0); 
+      text-align: center;
+    }
